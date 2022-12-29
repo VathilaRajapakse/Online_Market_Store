@@ -1,0 +1,97 @@
+
+.btn{
+    display:inline-block;
+    margin-top:1rem;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    text-align: center;
+    cursor: pointer;
+}
+.btn:hover{
+    background:rgb(71, 73, 75);
+
+
+}
+
+
+
+
+.admin-login{
+
+    width: 500px;
+    height: 700px;
+    margin: auto;
+    padding: 20px;
+    background:rgba(175, 4, 4, 0.5);
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+}
+.admin{
+
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    padding: 20px;
+    background:rgba(0, 0, 0, 0.479);
+    font-family: sans-serif;
+    color: white;
+}
+.admin-login-p{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+
+}
+.admin-login-textbox{
+    background: rgba(253, 253, 253, 0.534);
+    width: 300px;
+    height: 30px;
+}
+#submitbtn{
+    display:inline-block;
+    margin-top:1rem;
+    background: rgba(0, 0, 0, 0.473);
+    color: rgb(255, 255, 255);
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    text-align: center;
+    cursor: pointer;
+}
+#submitbtn:hover{
+    background:rgb(71, 73, 75);
+
+}
+
+.bod{
+    background-image: url(../images/admin4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bod1{
+    background-image: url(../images/admin2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bod2{
+    background-image: url(../images/admin1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#admin-h1{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 230, 230);
+}
+h2{
+    font-size: 35px;
+    font-family:sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+.tab{
+    background-color: rgba(255, 255, 255, 0.336);
+}

@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700&display=swap');
+
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6.5rem;
+    scroll-behavior: smooth;
+}
+
+*{
+    
+    box-sizing: border-box;    
+    text-decoration: none;    
+    transition: all .2s linear;
+    
+
+}
+
+.AA{
+	font-size:22px;
+	font-weight:600;
+	color:#FFFFFF;
+	font-family:sans-serif;
+}
+
+
+
+
+
+
+.header-1{
+    background: rgb(168, 167, 167);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+}
+
+.header-2 .search-box-container #search-box
+{
+    height: 10 px;
+    width: 70%;
+    padding: 1rem;
+    font-size: 2rem;
+    color: #333;
+    border: 1rem solid rgba(0,0,0,.3);
+    text-transform: none;
+
+}
+
+.header-2 .search-box-container label{
+    height: 40px;
+    width: 50px;
+    font-size: 2rem;
+    line-height: 4rem;
+    color: #fff;
+    background:#27ae60;
+    text-align: center;
+    cursor: pointer;
+}
+.header-2 .search-box-container label:hover
+{
+    background:#000000;
+
+}
+
+
+.header-2{
+    background: rgb(190, 190, 190);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0, 1);
+    position: relative;
+}
+
+
+.header-2 .navbar a{
+    padding:12px;
+    font-size:18px;
+    font-weight: 700;
+    border-radius: .5rem;
+    color:#000000;
+	font-family:sans-serif;
+	
+	
+ 
+}
+.header-2 .navbar a:hover
+{
+    background:#464e00;
+    color:#FFFFFF;
+}
+
+
+
+/*tables css*/
+#right {
+  text-align:right;
+  cellpading:50%;
+}
+
+#second td{
+  height:25px ;
+  width:35%;
+  padding:18px;
+  font-size:16px;
+  font-weight: 700;
+  color:#FFFFFF;
+}
+/*addadverticement page table*/
+#secondT td{
+  height:25px ;
+  width:35%;
+  padding:18px;
+  font-size:16px;
+  font-weight: 700;
+}
+
+#third {
+ height:25px ;
+  width:35%;
+  }
+  
+body{
+    height: 100rem;
+}
+
+/*button css*/
+.button {
+  cursor: pointer;
+  margin-left:49%;
+  margin-right:auto;
+  display:block;
+  margin-top:1%;
+  margin-bottom:0%;
+  background-color:#4CAF50;
+  color:white;
+}
+
+/*background images*/
+
+
+
+
+
+/*footer css*/
+.footer{
+    background-color:#A9A9A9;
+    padding: 70px 0;;
+    height: auto;
+    width: auto;
+}
+.container-1{
+    max-width: 1170px;
+    background-color:#A9A9A9;
+    margin:auto;
+    width: auto;
+}
+ul{
+    list-style: none;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+    
+}
+.footer-col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 300;
+    color: #000000;
+    display: block;
+
+}
+.footer-col ul li a:hover{
+    color: yellow;
+    padding-left: 10px;
+}
+
+
+
+
+
+/*home page slides*/
+
+#slider{
+    overflow: hidden;
+
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+	height:5%;
+    margin: 0;
+    animation: 25s slider infinite;
+
+}
+#slider figure img{
+    width: 20%;
+    float:left
+}
+.slid{
+
+    width: 1100px;
+    margin-left: 115px;
+
+}
+@keyframes slider{
+    0%{
+        left: 0;
+
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+.submitbtn{
+    display:inline-block;
+    margin-top:1rem;
+    background: yellow;
+    color: white;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    text-align: center;
+    cursor: pointer;
+}
+.submitbtn:hover{
+    background:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
